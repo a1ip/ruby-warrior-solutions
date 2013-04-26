@@ -1,0 +1,176 @@
+Welcome to Ruby Warrior
+Starting Level 3
+- turn 1 -
+ ---------
+|@ s ss s>|
+ ---------
+rampantmonkey walks forward
+- turn 2 -
+ ---------
+| @s ss s>|
+ ---------
+rampantmonkey attacks forward and hits Sludge
+Sludge takes 5 damage, 7 health power left
+Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 17 health power left
+- turn 3 -
+ ---------
+| @s ss s>|
+ ---------
+rampantmonkey attacks forward and hits Sludge
+Sludge takes 5 damage, 2 health power left
+Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 14 health power left
+- turn 4 -
+ ---------
+| @s ss s>|
+ ---------
+rampantmonkey attacks forward and hits Sludge
+Sludge takes 5 damage, -3 health power left
+Sludge dies
+rampantmonkey earns 12 points
+- turn 5 -
+ ---------
+| @  ss s>|
+ ---------
+rampantmonkey walks forward
+- turn 6 -
+ ---------
+|  @ ss s>|
+ ---------
+rampantmonkey walks forward
+- turn 7 -
+ ---------
+|   @ss s>|
+ ---------
+rampantmonkey attacks forward and hits Sludge
+Sludge takes 5 damage, 7 health power left
+Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 11 health power left
+- turn 8 -
+ ---------
+|   @ss s>|
+ ---------
+rampantmonkey attacks forward and hits Sludge
+Sludge takes 5 damage, 2 health power left
+Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 8 health power left
+- turn 9 -
+ ---------
+|   @ss s>|
+ ---------
+rampantmonkey attacks forward and hits Sludge
+Sludge takes 5 damage, -3 health power left
+Sludge dies
+rampantmonkey earns 12 points
+- turn 10 -
+ ---------
+|   @ s s>|
+ ---------
+rampantmonkey walks forward
+- turn 11 -
+ ---------
+|    @s s>|
+ ---------
+rampantmonkey attacks forward and hits Sludge
+Sludge takes 5 damage, 7 health power left
+Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 5 health power left
+- turn 12 -
+ ---------
+|    @s s>|
+ ---------
+rampantmonkey attacks forward and hits Sludge
+Sludge takes 5 damage, 2 health power left
+Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 2 health power left
+- turn 13 -
+ ---------
+|    @s s>|
+ ---------
+rampantmonkey attacks forward and hits Sludge
+Sludge takes 5 damage, -3 health power left
+Sludge dies
+rampantmonkey earns 12 points
+- turn 14 -
+ ---------
+|    @  s>|
+ ---------
+rampantmonkey receives 2 health from resting, up to 4 health
+- turn 15 -
+ ---------
+|    @  s>|
+ ---------
+rampantmonkey receives 2 health from resting, up to 6 health
+- turn 16 -
+ ---------
+|    @  s>|
+ ---------
+rampantmonkey receives 2 health from resting, up to 8 health
+- turn 17 -
+ ---------
+|    @  s>|
+ ---------
+rampantmonkey walks forward
+- turn 18 -
+ ---------
+|     @ s>|
+ ---------
+rampantmonkey walks forward
+- turn 19 -
+ ---------
+|      @s>|
+ ---------
+rampantmonkey attacks forward and hits Sludge
+Sludge takes 5 damage, 7 health power left
+Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 5 health power left
+- turn 20 -
+ ---------
+|      @s>|
+ ---------
+rampantmonkey attacks forward and hits Sludge
+Sludge takes 5 damage, 2 health power left
+Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 2 health power left
+- turn 21 -
+ ---------
+|      @s>|
+ ---------
+rampantmonkey attacks forward and hits Sludge
+Sludge takes 5 damage, -3 health power left
+Sludge dies
+rampantmonkey earns 12 points
+- turn 22 -
+ ---------
+|      @ >|
+ ---------
+rampantmonkey receives 2 health from resting, up to 4 health
+- turn 23 -
+ ---------
+|      @ >|
+ ---------
+rampantmonkey receives 2 health from resting, up to 6 health
+- turn 24 -
+ ---------
+|      @ >|
+ ---------
+rampantmonkey receives 2 health from resting, up to 8 health
+- turn 25 -
+ ---------
+|      @ >|
+ ---------
+rampantmonkey walks forward
+- turn 26 -
+ ---------
+|       @>|
+ ---------
+rampantmonkey walks forward
+Success! You have found the stairs.
+Level Score: 48
+Time Bonus: 9
+Clear Bonus: 11
+Total Score: 36 + 68 = 104
+Would you like to continue on to the next level? [yn] y
+See the updated README in the rubywarrior/rampantmonkey-beginner directory.
+
