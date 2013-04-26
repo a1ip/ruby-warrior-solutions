@@ -52,7 +52,15 @@ class Player
         elsif dying? and not healable?
           :begin_retreat
         else
-          :walk!
+          if first_nonempty_space == "wizard"
+            :shoot!
+          elsif first_nonempty_space == "archer"
+            :walk!
+          elsif first_nonempty_space == "captive"
+            :walk!
+          else
+            :walk!
+          end
         end
       elsif feel.captive?
         :rescue!
@@ -98,6 +106,14 @@ class Player
       else
         w.send action
       end
+    end
+
+    def look
+      w.look(direction).map{|s| s.to_s.downcase}
+    end
+
+    def first_nonempty_space
+      look.find { |s| s != "nothing" }
     end
 
     def dying?

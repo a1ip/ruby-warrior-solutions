@@ -1,0 +1,56 @@
+Welcome to Ruby Warrior
+Starting Level 8
+- turn 1 -
+ ------
+|@ Cww>|
+ ------
+rampantmonkey walks forward
+- turn 2 -
+ ------
+| @Cww>|
+ ------
+rampantmonkey unbinds forward and rescues Captive
+Captive released from bonds
+rampantmonkey earns 20 points
+- turn 3 -
+ ------
+| @ ww>|
+ ------
+rampantmonkey shoots forward and hits Wizard
+Wizard takes 3 damage, 0 health power left
+Wizard dies
+rampantmonkey earns 3 points
+- turn 4 -
+ ------
+| @  w>|
+ ------
+rampantmonkey shoots forward and hits Wizard
+Wizard takes 3 damage, 0 health power left
+Wizard dies
+rampantmonkey earns 3 points
+- turn 5 -
+ ------
+| @   >|
+ ------
+rampantmonkey walks forward
+- turn 6 -
+ ------
+|  @  >|
+ ------
+rampantmonkey walks forward
+- turn 7 -
+ ------
+|   @ >|
+ ------
+rampantmonkey walks forward
+- turn 8 -
+ ------
+|    @>|
+ ------
+rampantmonkey walks forward
+Success! You have found the stairs.
+Level Score: 26
+Time Bonus: 12
+Clear Bonus: 8
+Total Score: 441 + 46 = 487
+Would you like to continue on to the next level? [yn] See the updated README in the rubywarrior/rampantmonkey-beginner directory.
