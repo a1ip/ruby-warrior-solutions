@@ -1,0 +1,156 @@
+Welcome to Ruby Warrior
+Starting Level 7
+- turn 1 -
+ ------
+|>a S @|
+ ------
+rampantmonkey pivots backward
+- turn 2 -
+ ------
+|>a S @|
+ ------
+rampantmonkey walks forward
+- turn 3 -
+ ------
+|>a S@ |
+ ------
+rampantmonkey attacks forward and hits Thick Sludge
+Thick Sludge takes 5 damage, 19 health power left
+Thick Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 17 health power left
+- turn 4 -
+ ------
+|>a S@ |
+ ------
+rampantmonkey attacks forward and hits Thick Sludge
+Thick Sludge takes 5 damage, 14 health power left
+Thick Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 14 health power left
+- turn 5 -
+ ------
+|>a S@ |
+ ------
+rampantmonkey attacks forward and hits Thick Sludge
+Thick Sludge takes 5 damage, 9 health power left
+Thick Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 11 health power left
+- turn 6 -
+ ------
+|>a S@ |
+ ------
+rampantmonkey attacks forward and hits Thick Sludge
+Thick Sludge takes 5 damage, 4 health power left
+Thick Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 8 health power left
+- turn 7 -
+ ------
+|>a S@ |
+ ------
+rampantmonkey attacks forward and hits Thick Sludge
+Thick Sludge takes 5 damage, -1 health power left
+Thick Sludge dies
+rampantmonkey earns 24 points
+- turn 8 -
+ ------
+|>a  @ |
+ ------
+rampantmonkey receives 2 health from resting, up to 10 health
+Archer shoots forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 7 health power left
+- turn 9 -
+ ------
+|>a  @ |
+ ------
+rampantmonkey walks backward
+Archer shoots and hits nothing
+- turn 10 -
+ ------
+|>a   @|
+ ------
+rampantmonkey receives 2 health from resting, up to 9 health
+- turn 11 -
+ ------
+|>a   @|
+ ------
+rampantmonkey receives 2 health from resting, up to 11 health
+- turn 12 -
+ ------
+|>a   @|
+ ------
+rampantmonkey receives 2 health from resting, up to 13 health
+- turn 13 -
+ ------
+|>a   @|
+ ------
+rampantmonkey receives 2 health from resting, up to 15 health
+- turn 14 -
+ ------
+|>a   @|
+ ------
+rampantmonkey receives 2 health from resting, up to 17 health
+- turn 15 -
+ ------
+|>a   @|
+ ------
+rampantmonkey receives 2 health from resting, up to 19 health
+- turn 16 -
+ ------
+|>a   @|
+ ------
+rampantmonkey receives 1 health from resting, up to 20 health
+- turn 17 -
+ ------
+|>a   @|
+ ------
+rampantmonkey walks forward
+- turn 18 -
+ ------
+|>a  @ |
+ ------
+rampantmonkey walks forward
+Archer shoots forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 17 health power left
+- turn 19 -
+ ------
+|>a @  |
+ ------
+rampantmonkey walks forward
+Archer shoots forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 14 health power left
+- turn 20 -
+ ------
+|>a@   |
+ ------
+rampantmonkey attacks forward and hits Archer
+Archer takes 5 damage, 2 health power left
+Archer shoots forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 11 health power left
+- turn 21 -
+ ------
+|>a@   |
+ ------
+rampantmonkey attacks forward and hits Archer
+Archer takes 5 damage, -3 health power left
+Archer dies
+rampantmonkey earns 7 points
+- turn 22 -
+ ------
+|> @   |
+ ------
+rampantmonkey receives 2 health from resting, up to 13 health
+- turn 23 -
+ ------
+|> @   |
+ ------
+rampantmonkey walks forward
+- turn 24 -
+ ------
+|>@    |
+ ------
+rampantmonkey walks forward
+Success! You have found the stairs.
+Level Score: 31
+Time Bonus: 6
+Clear Bonus: 7
+Total Score: 397 + 44 = 441
+Would you like to continue on to the next level? [yn] See the updated README in the rubywarrior/rampantmonkey-beginner directory.

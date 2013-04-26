@@ -4,7 +4,7 @@ class Player
     @severe_health = 13
     @max_health    = 20
     @last_health   = 20
-    @direction     = :backward
+    @direction     = :forward
     @retreating    = false
   end
 
@@ -57,7 +57,7 @@ class Player
       elsif feel.captive?
         :rescue!
       elsif feel.wall?
-        :turn_around
+        :pivot!
       end
     end
 
