@@ -1,0 +1,105 @@
+Welcome to Ruby Warrior
+Starting Level 2
+- turn 1 -
+ ----
+|@s  |
+| sS>|
+ ----
+rampantmonkey attacks forward and hits Sludge
+Sludge takes 5 damage, 7 health power left
+Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 17 health power left
+- turn 2 -
+ ----
+|@s  |
+| sS>|
+ ----
+rampantmonkey attacks forward and hits Sludge
+Sludge takes 5 damage, 2 health power left
+Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 14 health power left
+- turn 3 -
+ ----
+|@s  |
+| sS>|
+ ----
+rampantmonkey attacks forward and hits Sludge
+Sludge takes 5 damage, -3 health power left
+Sludge dies
+rampantmonkey earns 12 points
+- turn 4 -
+ ----
+|@   |
+| sS>|
+ ----
+rampantmonkey walks forward
+- turn 5 -
+ ----
+| @  |
+| sS>|
+ ----
+rampantmonkey walks forward
+Sludge attacks forward and hits nothing
+- turn 6 -
+ ----
+|  @ |
+| sS>|
+ ----
+rampantmonkey attacks right and hits Thick Sludge
+Thick Sludge takes 5 damage, 19 health power left
+Thick Sludge attacks right and hits rampantmonkey
+rampantmonkey takes 3 damage, 11 health power left
+- turn 7 -
+ ----
+|  @ |
+| sS>|
+ ----
+rampantmonkey attacks right and hits Thick Sludge
+Thick Sludge takes 5 damage, 14 health power left
+Thick Sludge attacks right and hits rampantmonkey
+rampantmonkey takes 3 damage, 8 health power left
+- turn 8 -
+ ----
+|  @ |
+| sS>|
+ ----
+rampantmonkey attacks right and hits Thick Sludge
+Thick Sludge takes 5 damage, 9 health power left
+Thick Sludge attacks right and hits rampantmonkey
+rampantmonkey takes 3 damage, 5 health power left
+- turn 9 -
+ ----
+|  @ |
+| sS>|
+ ----
+rampantmonkey attacks right and hits Thick Sludge
+Thick Sludge takes 5 damage, 4 health power left
+Thick Sludge attacks right and hits rampantmonkey
+rampantmonkey takes 3 damage, 2 health power left
+- turn 10 -
+ ----
+|  @ |
+| sS>|
+ ----
+rampantmonkey attacks right and hits Thick Sludge
+Thick Sludge takes 5 damage, -1 health power left
+Thick Sludge dies
+rampantmonkey earns 24 points
+- turn 11 -
+ ----
+|  @ |
+| s >|
+ ----
+rampantmonkey walks right
+- turn 12 -
+ ----
+|    |
+| s@>|
+ ----
+rampantmonkey walks forward
+Sludge attacks right and hits nothing
+Success! You have found the stairs.
+Level Score: 36
+Time Bonus: 28
+Total Score: 19 + 64 = 83
+Would you like to continue on to the next level? [yn] See the updated README in the rubywarrior/rampantmonkey-intermediate directory.
