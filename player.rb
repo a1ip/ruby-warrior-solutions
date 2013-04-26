@@ -46,10 +46,12 @@ class Player
         end
       elsif feel.enemy?
         :attack!
+      elsif contains? :backward, "captive"
+        :pivot!
       elsif feel.empty?
         if severe? and healable? and first_nonempty_space != "wizard"
           heal
-        elsif dying? and not healable?
+        elsif dying? and not healable? and two_empty_spaces(:backward)
           :begin_retreat
         else
           if first_nonempty_space == "wizard"
@@ -88,6 +90,10 @@ class Player
       @retreating
     end
 
+    def contains? dir=direction, type
+      (look dir).include? type
+    end
+
     def feel
       w.feel direction
     end
@@ -108,8 +114,13 @@ class Player
       end
     end
 
-    def look
-      w.look(direction).map{|s| s.to_s.downcase}
+    def look dir=direction
+      w.look(dir).map{|s| s.to_s.downcase}
+    end
+
+    def two_empty_spaces dir=:backward
+      l = look dir
+      l[0] == "nothing" and l[1] == "nothing"
     end
 
     def first_nonempty_space
