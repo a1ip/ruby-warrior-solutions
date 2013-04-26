@@ -42,6 +42,8 @@ class Player
         else
           :walk!
         end
+      elsif w.feel.captive?
+        :rescue!
       end
     end
 

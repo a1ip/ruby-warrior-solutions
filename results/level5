@@ -1,0 +1,173 @@
+Welcome to Ruby Warrior
+Starting Level 5
+- turn 1 -
+ -------
+|@ CaaSC|
+ -------
+rampantmonkey walks forward
+- turn 2 -
+ -------
+| @CaaSC|
+ -------
+rampantmonkey unbinds forward and rescues Captive
+Captive released from bonds
+rampantmonkey earns 20 points
+- turn 3 -
+ -------
+| @ aaSC|
+ -------
+rampantmonkey walks forward
+Archer shoots forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 17 health power left
+- turn 4 -
+ -------
+|  @aaSC|
+ -------
+rampantmonkey attacks forward and hits Archer
+Archer takes 5 damage, 2 health power left
+Archer shoots forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 14 health power left
+- turn 5 -
+ -------
+|  @aaSC|
+ -------
+rampantmonkey attacks forward and hits Archer
+Archer takes 5 damage, -3 health power left
+Archer dies
+rampantmonkey earns 7 points
+- turn 6 -
+ -------
+|  @ aSC|
+ -------
+rampantmonkey walks forward
+Archer shoots forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 11 health power left
+- turn 7 -
+ -------
+|   @aSC|
+ -------
+rampantmonkey attacks forward and hits Archer
+Archer takes 5 damage, 2 health power left
+Archer shoots forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 8 health power left
+- turn 8 -
+ -------
+|   @aSC|
+ -------
+rampantmonkey attacks forward and hits Archer
+Archer takes 5 damage, -3 health power left
+Archer dies
+rampantmonkey earns 7 points
+- turn 9 -
+ -------
+|   @ SC|
+ -------
+rampantmonkey receives 2 health from resting, up to 10 health
+- turn 10 -
+ -------
+|   @ SC|
+ -------
+rampantmonkey receives 2 health from resting, up to 12 health
+- turn 11 -
+ -------
+|   @ SC|
+ -------
+rampantmonkey receives 2 health from resting, up to 14 health
+- turn 12 -
+ -------
+|   @ SC|
+ -------
+rampantmonkey walks forward
+- turn 13 -
+ -------
+|    @SC|
+ -------
+rampantmonkey attacks forward and hits Thick Sludge
+Thick Sludge takes 5 damage, 19 health power left
+Thick Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 11 health power left
+- turn 14 -
+ -------
+|    @SC|
+ -------
+rampantmonkey attacks forward and hits Thick Sludge
+Thick Sludge takes 5 damage, 14 health power left
+Thick Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 8 health power left
+- turn 15 -
+ -------
+|    @SC|
+ -------
+rampantmonkey attacks forward and hits Thick Sludge
+Thick Sludge takes 5 damage, 9 health power left
+Thick Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 5 health power left
+- turn 16 -
+ -------
+|    @SC|
+ -------
+rampantmonkey attacks forward and hits Thick Sludge
+Thick Sludge takes 5 damage, 4 health power left
+Thick Sludge attacks forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 2 health power left
+- turn 17 -
+ -------
+|    @SC|
+ -------
+rampantmonkey attacks forward and hits Thick Sludge
+Thick Sludge takes 5 damage, -1 health power left
+Thick Sludge dies
+rampantmonkey earns 24 points
+- turn 18 -
+ -------
+|    @ C|
+ -------
+rampantmonkey receives 2 health from resting, up to 4 health
+- turn 19 -
+ -------
+|    @ C|
+ -------
+rampantmonkey receives 2 health from resting, up to 6 health
+- turn 20 -
+ -------
+|    @ C|
+ -------
+rampantmonkey receives 2 health from resting, up to 8 health
+- turn 21 -
+ -------
+|    @ C|
+ -------
+rampantmonkey receives 2 health from resting, up to 10 health
+- turn 22 -
+ -------
+|    @ C|
+ -------
+rampantmonkey receives 2 health from resting, up to 12 health
+- turn 23 -
+ -------
+|    @ C|
+ -------
+rampantmonkey receives 2 health from resting, up to 14 health
+- turn 24 -
+ -------
+|    @ C|
+ -------
+rampantmonkey walks forward
+- turn 25 -
+ -------
+|     @C|
+ -------
+rampantmonkey unbinds forward and rescues Captive
+Captive released from bonds
+rampantmonkey earns 20 points
+- turn 26 -
+ -------
+|     @>|
+ -------
+rampantmonkey walks forward
+Success! You have found the stairs.
+Level Score: 78
+Time Bonus: 19
+Clear Bonus: 19
+Total Score: 187 + 116 = 303
+Would you like to continue on to the next level? [yn] See the updated README in the rubywarrior/rampantmonkey-beginner directory.
