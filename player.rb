@@ -47,7 +47,7 @@ class Player
       elsif feel.enemy?
         :attack!
       elsif feel.empty?
-        if severe? and healable?
+        if severe? and healable? and first_nonempty_space != "wizard"
           heal
         elsif dying? and not healable?
           :begin_retreat
