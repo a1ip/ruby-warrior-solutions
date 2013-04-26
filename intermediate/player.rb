@@ -1,5 +1,18 @@
 class Player
   def play_turn(warrior)
-    # add your code here
+    setup warrior
+
+    walk_to_stairs
   end
+
+  private
+    attr_reader :w
+
+    def setup warrior
+      @w = warrior
+    end
+
+    def walk_to_stairs
+      w.walk!(w.direction_of_stairs)
+    end
 end

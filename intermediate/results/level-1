@@ -1,0 +1,40 @@
+Welcome to Ruby Warrior
+Starting Level 1
+- turn 1 -
+ ------
+|      |
+|@     |
+|      |
+|  >   |
+ ------
+rampantmonkey walks right
+- turn 2 -
+ ------
+|      |
+|      |
+|@     |
+|  >   |
+ ------
+rampantmonkey walks forward
+- turn 3 -
+ ------
+|      |
+|      |
+| @    |
+|  >   |
+ ------
+rampantmonkey walks right
+- turn 4 -
+ ------
+|      |
+|      |
+|      |
+| @>   |
+ ------
+rampantmonkey walks forward
+Success! You have found the stairs.
+Level Score: 0
+Time Bonus: 16
+Clear Bonus: 3
+Total Score: 19
+Would you like to continue on to the next level? [yn] See the updated README in the rubywarrior/rampantmonkey-intermediate directory.
