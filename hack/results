@@ -1,0 +1,118 @@
+Welcome to Ruby Warrior
+Starting Level 1
+- turn 1 -
+ --------
+|@      >|
+ --------
+rampantmonkey does nothing
+Success! You have found the stairs.
+Level Score: 0
+Time Bonus: 14
+Clear Bonus: 3
+Level Grade: S
+Total Score: 17
+Starting Level 2
+- turn 1 -
+ --------
+|@   s  >|
+ --------
+rampantmonkey does nothing
+Success! You have found the stairs.
+Level Score: 0
+Time Bonus: 19
+Level Grade: C
+Total Score: 17 + 19 = 36
+Starting Level 3
+- turn 1 -
+ ---------
+|@ s ss s>|
+ ---------
+rampantmonkey does nothing
+Success! You have found the stairs.
+Level Score: 0
+Time Bonus: 34
+Level Grade: F
+Total Score: 36 + 34 = 70
+Starting Level 4
+- turn 1 -
+ -------
+|@ Sa S>|
+ -------
+rampantmonkey does nothing
+Success! You have found the stairs.
+Level Score: 0
+Time Bonus: 44
+Level Grade: F
+Total Score: 70 + 44 = 114
+Starting Level 5
+- turn 1 -
+ -------
+|@ CaaSC|
+ -------
+rampantmonkey does nothing
+Success! You have found the stairs.
+Level Score: 0
+Time Bonus: 44
+Level Grade: F
+Total Score: 114 + 44 = 158
+Starting Level 6
+- turn 1 -
+ --------
+|C @ S aa|
+ --------
+rampantmonkey does nothing
+Success! You have found the stairs.
+Level Score: 0
+Time Bonus: 54
+Level Grade: F
+Total Score: 158 + 54 = 212
+Starting Level 7
+- turn 1 -
+ ------
+|>a S @|
+ ------
+rampantmonkey does nothing
+Success! You have found the stairs.
+Level Score: 0
+Time Bonus: 29
+Level Grade: F
+Total Score: 212 + 29 = 241
+Starting Level 8
+- turn 1 -
+ ------
+|@ Cww>|
+ ------
+rampantmonkey does nothing
+Success! You have found the stairs.
+Level Score: 0
+Time Bonus: 19
+Level Grade: F
+Total Score: 241 + 19 = 260
+Starting Level 9
+- turn 1 -
+ -----------
+|>Ca  @ S wC|
+ -----------
+rampantmonkey does nothing
+Archer shoots forward and hits rampantmonkey
+rampantmonkey takes 3 damage, 17 health power left
+CONGRATULATIONS! You have climbed to the top of the tower and rescued the fair maiden Ruby.
+Level Score: 0
+Time Bonus: 39
+Level Grade: F
+Total Score: 260 + 39 = 299
+Your average grade for this tower is: D
+
+  Level 1: S
+  Level 2: C
+  Level 3: F
+  Level 4: F
+  Level 5: F
+  Level 6: F
+  Level 7: F
+  Level 8: F
+  Level 9: F
+
+To practice a level, use the -l option:
+
+  rubywarrior -l 3
