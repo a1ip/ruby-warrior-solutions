@@ -7,7 +7,7 @@ class Player
   end
 
   def play_turn(warrior)
-    @state = 10
+    @state = 13
     @w = warrior
     next_action =  Array pick
 
@@ -44,6 +44,10 @@ class Player
       :health
     when 11
       :health
+    when 12
+      :rescue!
+    when 13
+      :feel
     end
   end
 
@@ -62,6 +66,8 @@ class Player
       @state = dying?(value) ? 9 : 11
     when 11
       @state = taking_damage?(value) ? 2 : 5
+    when 13
+      @state = value.captive? ? 12 : 10
     end
   end
 
