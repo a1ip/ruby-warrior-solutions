@@ -1,6 +1,6 @@
 class Player
   MAX_HEALTH   = 20
-  DYING_HEALTH = 8
+  DYING_HEALTH = 9
 
   def initialize
     @last_health = MAX_HEALTH
@@ -63,7 +63,7 @@ class Player
     when 20
       %i[look backward]
     when 21
-      :pivot!
+      %i[shoot! backward]
     end
   end
 
