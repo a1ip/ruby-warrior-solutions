@@ -7,7 +7,7 @@ class Player
   end
 
   def play_turn(warrior)
-    @state = 14
+    @state = 16
     @w = warrior
     next_action =  Array pick
 
@@ -52,6 +52,10 @@ class Player
       %i[feel backward]
     when 15
       %i[rescue! backward]
+    when 16
+      :feel
+    when 17
+      :pivot!
     end
   end
 
@@ -74,6 +78,8 @@ class Player
       @state = value.captive? ? 12 : 10
     when 14
       @state = value.captive? ? 15 : 13
+    when 16
+      @state = value.wall? ? 17 : 14
     end
   end
 
