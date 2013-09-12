@@ -1,13 +1,13 @@
 class Player
   MAX_HEALTH   = 20
-  DYING_HEALTH = 9
+  DYING_HEALTH = 8
 
   def initialize
     @last_health = MAX_HEALTH
   end
 
   def play_turn(warrior)
-    @state = 18
+    @state = 20
     @w = warrior
     next_action =  Array pick
 
@@ -60,6 +60,10 @@ class Player
       :look
     when 19
       :shoot!
+    when 20
+      %i[look backward]
+    when 21
+      :pivot!
     end
   end
 
@@ -86,6 +90,8 @@ class Player
       @state = value.wall? ? 17 : 14
     when 18
       @state = wizard_first?(value) ? 19 : 16
+    when 20
+      @state = archer_first?(value) ? 21 : 18
     end
   end
 
@@ -112,4 +118,9 @@ class Player
   def wizard_first? spaces
     spaces.select{|space| space.to_s != "nothing"}.first.to_s == "Wizard"
   end
+
+  def archer_first? spaces
+    spaces.select{|space| space.to_s != "nothing"}.first.to_s == "Archer"
+  end
+
 end
