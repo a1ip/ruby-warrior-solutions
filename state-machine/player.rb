@@ -7,7 +7,7 @@ class Player
   end
 
   def play_turn(warrior)
-    @state = 20
+    @state = 7
     @w = warrior
     next_action =  Array pick
 
@@ -25,9 +25,9 @@ class Player
     when 1
       :walk!
     when 2
-      :feel
+      :look
     when 3
-      :attack!
+      :shoot!
     when 4
       :health
     when 5
@@ -35,11 +35,11 @@ class Player
     when 6
       :rest!
     when 7
-      :rest!
+      %i[look backward]
     when 8
       %i[walk! backward]
     when 9
-      %i[feel backward]
+      :health
     when 10
       :health
     when 11
@@ -64,6 +64,8 @@ class Player
       %i[look backward]
     when 21
       %i[shoot! backward]
+    when 22
+      %i[feel backward]
     end
   end
 
@@ -71,13 +73,17 @@ class Player
     value = perform action
     case @state
     when 2
-      @state = value.empty? ? 1 : 3
+      @state = enemy_first?(value) ? 3 : 1
     when 4
       @state = injured?(value) ? 6 : 2
     when 5
       @state = value.empty? ? 4 : 3
+    when 6
+      @state = stairs_first?(value) ? 1 : 7
+    when 7
+      @state = captive_first?(value) ? 22 : 20
     when 9
-      @state = value.wall? ? 7 : 8
+      @state = taking_damage?(value) ? 8 : 6
     when 10
       @state = dying?(value) ? 9 : 11
     when 11
@@ -92,6 +98,8 @@ class Player
       @state = wizard_first?(value) ? 19 : 16
     when 20
       @state = archer_first?(value) ? 21 : 18
+    when 22
+      @state = value.captive? ? 15 : 8
     end
   end
 
@@ -123,4 +131,11 @@ class Player
     spaces.select{|space| space.to_s != "nothing"}.first.to_s == "Archer"
   end
 
+  def captive_first? spaces
+    spaces.select{|space| space.to_s != "nothing"}.first.to_s == "Captive"
+  end
+
+  def enemy_first? spaces
+    !["", "Captive", "wall"].include? spaces.select{|space| space.to_s != "nothing"}.first.to_s
+  end
 end
